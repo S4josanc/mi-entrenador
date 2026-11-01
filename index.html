@@ -12,7 +12,7 @@ for(let round=1;round<=2;round++){
   if(!(round===2&&j===3))autoPlan.push({duration:60,type:'rest',name:'Rest',cue:'Good effort! Take a breather. You’ve got sixty seconds.'});
  }
 }
-autoPlan.push({duration:240,type:'cool',name:'Cool-down',cue:'Brilliant work, José! Slow down and breathe.'});
+autoPlan.push({duration:420,type:'cool',name:'Cool-down',cue:'Brilliant work, José! Slow down and breathe.'});
 const autoDuration=autoPlan.reduce((n,x)=>n+x.duration,0);
 function speakAuto(message){
  if(!('speechSynthesis' in window))return;
