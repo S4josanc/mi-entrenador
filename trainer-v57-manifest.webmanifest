@@ -1,0 +1,17 @@
+{
+  "name": "My Trainer",
+  "short_name": "My Trainer",
+  "start_url": "./trainer-v57-preview.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf3ef",
+  "theme_color": "#102d27",
+  "icons": [
+    {
+      "src": "./trainer-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
