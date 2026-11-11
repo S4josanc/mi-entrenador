@@ -1,0 +1,18 @@
+{
+  "name": "My Trainer",
+  "short_name": "My Trainer",
+  "description": "Guided workouts with Smart Coach",
+  "start_url": "./trainer-v53-preview.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf3ef",
+  "theme_color": "#102d27",
+  "icons": [
+    {
+      "src": "./trainer-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
