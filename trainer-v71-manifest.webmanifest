@@ -1,17 +1,15 @@
 {
-  "name": "My Trainer",
-  "short_name": "My Trainer",
+  "id": "./trainer-v71-preview.html",
+  "name": "My Trainer 7.1",
+  "short_name": "My Trainer 7.1",
   "start_url": "./trainer-v71-preview.html",
-  "scope": "./",
+  "scope": "./trainer-v71-preview.html",
   "display": "standalone",
   "background_color": "#edf3ef",
   "theme_color": "#102d27",
   "icons": [
-    {
-      "src": "./trainer-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    }
+    { "src": "./trainer-v71-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./trainer-v71-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./trainer-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
 }
